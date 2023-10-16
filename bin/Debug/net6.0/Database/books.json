@@ -3,6 +3,7 @@
         "bookId": 17,
         "name": "Harry Potter",
         "pages": 267,
+        "genre": "Fantasy",
         "author": {
             "authorId":123,
             "authorName":"J K Rowling"
@@ -11,7 +12,15 @@
     {
         "bookId": 54,
         "name": "Memory Man",
-        "pages": 560
+        "pages": 560,
+        "reviews":[
+            {
+                "reviewId":67,
+                "rating":5,
+                "description":"A real page turner",
+                "user":" S L"
+            }
+        ]
     },
     {
         "bookId": 66,

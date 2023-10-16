@@ -3,6 +3,7 @@
         "bookId": 17,
         "name": "Harry Potter",
         "pages": 267,
+        "genre": "Fantasy",
         "author": {
             "authorId":123,
             "authorName":"J K Rowling"

@@ -2,7 +2,11 @@
     {
         "bookId": 17,
         "name": "Harry Potter",
-        "pages": 267
+        "pages": 267,
+        "author": {
+            "authorId":123,
+            "authorName":"J K Rowling"
+        }
     },
     {
         "bookId": 54,

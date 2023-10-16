@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddGraphQLServer().
-    AddQueryType<Query>();
+    AddQueryType<Query>().AddInterfaceType<MyReadingMaterials>();
     
 var app = builder.Build();
 

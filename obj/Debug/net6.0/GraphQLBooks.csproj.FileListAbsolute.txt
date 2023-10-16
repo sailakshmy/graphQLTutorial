@@ -57,3 +57,4 @@ C:\Users\Sai Lakshmy\Documents\GitHub\graphQLTutorial\obj\Debug\net6.0\refint\Gr
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLTutorial\obj\Debug\net6.0\GraphQLBooks.pdb
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLTutorial\obj\Debug\net6.0\GraphQLBooks.genruntimeconfig.cache
 C:\Users\Sai Lakshmy\Documents\GitHub\graphQLTutorial\obj\Debug\net6.0\ref\GraphQLBooks.dll
+C:\Users\Sai Lakshmy\Documents\GitHub\graphQLTutorial\bin\Debug\net6.0\Database\magazines.json

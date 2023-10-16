@@ -3,6 +3,6 @@ public class Book  {
     public string Name { get; set; }
     public int Pages { get; set; }
     public double Price {get; set;}
-    public DateTime PublishedDate {get; set;}
+    public DateTime? PublishedDate {get; set;}
     public Author? Author{get;set;}
 }

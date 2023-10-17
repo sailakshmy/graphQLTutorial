@@ -1,8 +1,9 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using HotChocolate.Subscriptions;
 
 public class Mutation  {
-    public Book AddBook(BookInput input)  {
+    public Book AddBook(BookInput input,[Service]ITopicEventSender sender)  {
 
         // Read all current books
         string fileName = "Database/books.json";
@@ -24,6 +25,9 @@ public class Mutation  {
         books.Add(book);
         var json = JsonSerializer.Serialize(books);
         File.WriteAllText(fileName,json);
+        
+        // Send subscription notification about the new book
+        sender.SendAsync("BookAdded", book);
 
         // Return the newly created book
         return book;

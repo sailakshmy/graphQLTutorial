@@ -1,35 +1,63 @@
 [
     {
-        "bookId": 17,
-        "name": "Harry Potter",
-        "pages": 267,
-        "genre": "Fantasy",
-        "author": {
-            "authorId":123,
-            "authorName":"J K Rowling"
-        }
+        "BookId": 17,
+        "Name": "Harry Potter",
+        "Pages": 267,
+        "Price": 0,
+        "PublishedDate": null,
+        "Author": {
+            "AuthorId": 123,
+            "AuthorName": "J K Rowling"
+        },
+        "Genre": 1,
+        "Reviews": null
     },
     {
-        "bookId": 54,
-        "name": "Memory Man",
-        "pages": 560,
-        "reviews":[
+        "BookId": 54,
+        "Name": "Memory Man",
+        "Pages": 560,
+        "Price": 0,
+        "PublishedDate": null,
+        "Author": null,
+        "Genre": 0,
+        "Reviews": [
             {
-                "reviewId":67,
-                "rating":5,
-                "description":"A real page turner",
-                "user":" S L"
+                "ReviewId": 67,
+                "Rating": 5,
+                "Description": "A real page turner",
+                "ReviewDate": "0001-01-01T00:00:00",
+                "User": " S L"
             }
         ]
     },
     {
-        "bookId": 66,
-        "name" : "Exhalation",
-        "pages" : 368
+        "BookId": 66,
+        "Name": "Exhalation",
+        "Pages": 368,
+        "Price": 0,
+        "PublishedDate": null,
+        "Author": null,
+        "Genre": 0,
+        "Reviews": null
     },
     {
-        "bookId": 91,
-        "name" : "Hunger Games",
-        "pages" : 777
+        "BookId": 91,
+        "Name": "Lord of the Rings",
+        "Pages": 777,
+        "Price": 0,
+        "PublishedDate": null,
+        "Author": null,
+        "Genre": 0,
+        "Reviews": null
+    },
+    {
+        "BookId": 4763,
+        "Name": "Hunger Games",
+        "Pages": 780,
+        "Price": 111,
+        "PublishedDate": null,
+        "Author": null,
+        "Genre": 1,
+        "Reviews": null
     }
 ]
